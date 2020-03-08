@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <title>ES6 CRUD</title>
+  </head>
+  <body>
+
+    <div id="information">
+      <h1> Главная страница </h1>
+      <form>
+        <!--отрисовка таблицы и с кнопками редактирования и удаления-->
+      <!--  <div class="text_description">
+          <div class="text_name strong">Имя</div>
+        </div>
+      -->
+
+
+      <!--таблица с данными о каждом объекте + к каждому добавляем кнопку удалить и редактировать-->
+      </form>
+    </div>
+    <br>
+
+    <div id="all_info">
+      <h2>Подробная информация:</h2>
+      <form>
+        <!--<div class="detailInfo">
+          <div class="details">
+            <div class="elem">Имя</div>
+          </div>
+          <div class="details">
+            <div class="elem">12e12e</div>
+            <div class="elem">wefwef</div>
+            <div class="elem">1wefwefwef</div>
+          </div>
+        </div>
+        <input type="button" class="buttons" id="mainMenu2" value="Главное меню">-->
+      </form>
+    </div>
+    <br>
+
+    <div id="create_person">
+      <h2>Новый игрок:</h2>
+      <form>
+        <div class="radio_btn">
+          <div><input type="radio" id="radio_ext1" name="radioExt" value="footballplayer">Футболист</div>
+          <div><input type="radio" id="radio_ext2" name="radioExt" value="hockeyplayer">Хоккеист</div>
+        </div>
+        <br>
+      <div class="in">
+        <div id='base'>
+      <span>Имя:</span><input type="text" id="textFirstName" class="hit" value="John" required><br><br>
+      <span>Фамилия:</span><input type="text" id="textLastName" class="hit" value="Yung" required><br><br>
+      <span>Возраст:</span><input type="text" id="textYears" class="hit" value="20" required><br><br>
+      <span>Национальность:</span><input type="text" id="textNational" class="hit" value="USA" required><br><br>
+      <span>Клуб:</span><input type="text" id="textClub" class="hit" value="Chelsea" required><br><br>
+      <span>Позиция:</span><select type="text" id="textPosition" class="hit" value="Forward" required>
+        <option value="Forward">Forward</option>
+        <option value="Halfback">Halfback</option>
+        <option value="Defender">Defender</option>
+        <option value="Goalkeeper">Goalkeeper</option></select><br><br></div>
+        <div id='oneExtends' style="display: none">
+      <span>Параметры:</span><select type="text" id="textParameters" class="hit" value="Dribbling" required>
+          <option value="Dribbling">Dribbling</option><option value="Speed">Speed</option>
+          <option value="Pass">Pass</option><option value="Position selection">Position selection</option>
+          <option value="Impact strength">Impact strength</option><option value="Header">Header</option>
+          <option value="Endurance">Endurance</option></select><br><br>
+      <span>Ударная нога:</span><select type="text" id="textFoot" class="hit" value="Right" required>
+            <option value="Right">Right</option>
+            <option value="Left">Left</option>
+            <option value="Both legs">Both legs</option></select><br><br></div>
+            <div id='twoExtends' style="display: none">
+      <span>Хват клюшки:</span><select type="text" id="textGrip" class="hit" value="Right" required>
+              <option value="Right">Right</option>
+              <option value="Left">Left</option></select><br><br> 
+       <span>Звено команды:</span><select type="text" id="textTeam" class="hit" value="First" required>
+                <option value="First">First</option>
+                <option value="Second">Second</option>
+                <option value="Third">Third</option>
+                <option value="Fourth">Fourth</option></select><br><br></div>     
+
+      </div>
+      <input type="button" id="createPerson" class="buttons" value="Добавить в команду нового!">
+      <input type="button" id="mainMenu" class="buttons" value="Главная страница">
+      <input type="button" id="newSave" class="buttons" value="Сохранить">
+      </form>
+    </div>
+
+    <script src="./script.js"></script>
+    <script src="./baseClass.js"></script>
+    <script src="./oneExtendsClass.js"></script>
+    <script src="./twoExtendsClass.js"></script>
+
+    
+   
+  </body>
+</html>

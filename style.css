@@ -1,0 +1,35 @@
+body {
+    background: radial-gradient(50% 40%, rgb(221, 164, 72), rgb(241, 96, 193));
+  }
+
+.text_name strong, .text_name{display: inline-block; text-align: center; padding-top: 10px; width: 120px; height: 30px; border: 1px solid rgb(223, 205, 205);}
+
+.details, .detail, .detailis, .detailus, .detailes, .detailos, .detailas, .detailys, .detaile, .detaily{display: inline-block; text-align: center; padding-top: 10px; width: 120px; height: 30px; border: 1px solid rgb(223, 205, 205);}
+
+form{display: inline-block; margin-top: 30px; margin-left: 25px;}
+
+.in input, select{text-align: center; margin-left: 50px;}
+
+.in input:hover {background-color: aqua;}
+
+.in select:hover {background-color: aqua;}
+
+h1{text-align: center;}
+
+h2{margin-left: 25px;}
+
+#createPerson{margin-right: 20px;}
+
+#all_info form{color: aqua;}
+
+input[type="radio"]:hover {
+  cursor: pointer;
+}
+
+.buttons {
+  padding: 10px;
+  font-size: 16px;
+  color: rgb(238, 255, 248);
+  background-color: #066e06;
+  border-radius: 10px;
+}
